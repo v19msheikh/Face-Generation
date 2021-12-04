@@ -10,7 +10,7 @@ This project's purpose is to create a generator network that can generate fresh 
 It attempts to persuade the Dircriminator that the created image is genuine.
   
 ### Hyperparameters :
-num epochs = 10 
+num epochs = 15 
 - learning rate = 0.001 with Adam optimizer: beta1=0.1,beta2=0.999
 - z = 100 is the length of the latent vector.
 - added batch normalisation 
@@ -19,4 +19,4 @@ num epochs = 10
   
 ### Training :
 It was necessary to alternate between training the discriminator and the generator during the training process.
-- 10 epochs
+- 15 epochs
