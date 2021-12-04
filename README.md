@@ -11,7 +11,7 @@ It attempts to persuade the Dircriminator that the created image is genuine.
   
 ### Hyperparameters :
 num epochs = 10 
-- learning rate = 0.0005 with Adam optimizer: beta1=0.1,beta2=0.999
+- learning rate = 0.001 with Adam optimizer: beta1=0.1,beta2=0.999
 - z = 100 is the length of the latent vector.
 - added batch normalisation 
 - number of filters in Discriminator's first hidden layer = 32 
